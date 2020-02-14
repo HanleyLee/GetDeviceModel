@@ -1,17 +1,21 @@
 # HLDeviceKit
 
-## 功能
+返回当前 Apple 设备(含: iPhone, iPad, iPod, Apple TV, Simulator)的信息(含型号等)
 
-返回当前iOS 设备的型号(含: iPhone, iPad, iPod, Apple TV, Simulator)
+## 安装
 
-## 使用方式
+- Cocoapods
 
-1. 将本项目的 [UIDevice+Exten.swift](https://github.com/HanleyLee/HLDeviceKit/blob/master/UIDevice%2BExten.swift) 下载后放入 Xcode 工程中任意位置。
+    ```bash
+    pod `HLDeviceKit`
+    ```
 
-2. Xcode 工程中一行代码将当前设备名赋值至变量 `deviceName`(可以将变量命名为任意值)
+## Usage
+
+Xcode 工程中一行代码将当前设备名赋值至变量 `deviceName`(可以将变量命名为任意值)
 
 ```swift
-let deviceName = UIDevice.current.name
+let deviceName = HLDevice.now.modelName
 ```
 
 ## 开源许可
