@@ -1,5 +1,11 @@
 # HLDeviceKit
 
+![GitHub last commit](https://img.shields.io/github/last-commit/hanleylee/HLDeviceKit)
+![language-swift](https://img.shields.io/badge/language-swift-yellow)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/HanleyLee/HLDeviceKit)
+![Cocoapods](https://img.shields.io/cocoapods/v/HLDeviceKit)
+![GitHub](https://img.shields.io/github/license/hanleylee/HLDeviceKit)
+
 返回当前 Apple 设备(含: iPhone, iPad, iPod, Apple TV, Simulator)的信息(含型号等)
 
 ## 安装
